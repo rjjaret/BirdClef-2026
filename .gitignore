@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+.venv-bc/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Project-generated heavy artifacts
+cache/
+checkpoints/
+Old/
+
+# Large local datasets and intermediates
+data/
+*.pkl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.ckpt
+*.keras
+*.onnx
+
+# Runtime outputs
+logs/
+*.log
+

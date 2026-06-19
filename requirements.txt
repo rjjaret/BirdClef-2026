@@ -1,0 +1,28 @@
+# Deep Learning Frameworks
+tensorflow==2.18.0
+tensorflow-metal==1.2.0  # For Apple Silicon GPU acceleration
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+
+# Data Science & Numerical Computing
+numpy>=2.0.0
+pandas>=3.0.0
+scikit-learn>=1.8.0
+
+# Audio Processing
+librosa>=0.11.0
+soundfile>=0.13.0
+audioread>=3.0.0
+
+# Visualization
+matplotlib>=3.10.0
+
+# Jupyter Notebook Support
+ipykernel>=7.0.0
+ipython>=9.0.0
+
+# Additional Dependencies
+numba>=0.64.0  # Required by librosa for performance
+scipy>=1.17.0  # Required by librosa and scikit-learn
+joblib>=1.5.0  # Required by scikit-learn
