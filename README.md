@@ -1,4 +1,3 @@
-# My first Kaggle Challenge!
 # BirdCLEF 2026 Classification
 
 Training and inference workflows for BirdCLEF 2026 bird-call classification using TensorFlow/PyTorch and notebook-driven experimentation. This was my first challenge. My best score was an AUC ~.75. Not fantastic, but my first challenge :>)
