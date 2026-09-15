@@ -1,6 +1,6 @@
 # BirdCLEF 2026 Classification
 
-Training and inference workflows for BirdCLEF 2026 bird-call classification using TensorFlow/PyTorch and notebook-driven experimentation. This was my first challenge. My best score was an AUC ~.75. Not fantastic, but my first challenge :>)
+Training and inference workflows for BirdCLEF 2026 bird-call classification using TensorFlow/PyTorch and notebook-driven experimentation. This was my first challenge. My best score was an AUC ~.75. Not too bad for a complicated challenge, and my first!
 
 ## Repository Layout
 
@@ -10,15 +10,4 @@ Training and inference workflows for BirdCLEF 2026 bird-call classification usin
 - `artifacts/model_labels_v2.json`: label mapping metadata
 - `requirements.txt`: Python dependencies
 
-Ignored from Git by default:
-- large datasets (`data/`), caches (`cache/`), model checkpoints (`checkpoints/`)
-- local virtual environments (such as `.venv-bc/`)
 
-## Environment Setup (Python 3.12)
-
-```bash
-python3.12 -m venv .venv-bc
-source .venv-bc/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
